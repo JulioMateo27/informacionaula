@@ -125,7 +125,7 @@ body { min-height: max(884px, 100dvh); }
 
     <div class="field-group">
       <label for="f-photo">URL de la foto</label>
-      <input type="url" id="f-photo" placeholder="https://ejemplo.com/mi-foto.jpg"/>
+      <input type="url" id="f-photo" placeholder="https://imgur.com/a/xzUS6lX"/>
       <p class="hint">Pega la dirección URL de tu foto. Puedes subirla a <a href="https://imgur.com" target="_blank" class="text-secondary underline">Imgur</a> o usar una de Google.</p>
     </div>
 
@@ -287,8 +287,8 @@ function showToast(message, type) {
   document.getElementById('btn-reset').addEventListener('click', async () => {
     if (!confirm('¿Restaurar los datos de ejemplo? Se perderán tus datos actuales.')) return;
     await db.updateTeacherProfile({
-      name: 'Lic. Ramona Almonte',
-      title: 'Lic.',
+      name: 'Lic. Julio Mateo',
+      title: '',
       role: 'Especialista en Didáctica',
       specialty: 'Educación Primaria • Mención Ciencias',
       school: 'Distrito Educativo 10-01',
