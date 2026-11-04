@@ -1,4 +1,4 @@
-# Aula Abierta — Mi Blog Docente
+# InformAula — Mi Blog Docente
 
 Blog educativo para docentes de nivel primario y secundario en República Dominicana.
 
