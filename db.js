@@ -99,9 +99,9 @@ class StorageService {
           grade: '5to Primaria',
           readTime: 8,
           status: 'published', // 'published', 'draft', 'scheduled'
-          coverImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80',
+          coverImage: 'https://imgur.com/a/xzUS6lX',
           coverAlt: 'Esquema y paisaje del ciclo hidrológico en la naturaleza',
-          author: 'Lic. Ramona Almonte',
+          author: 'Lic. Julio Mateo',
           role: 'Especialista en Didáctica',
           views: 2450,
           createdAt: new Date('2025-03-14T08:30:00Z').getTime(),
